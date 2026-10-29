@@ -1,3 +1,9 @@
+<!-- ranisec fork notice -->
+> ## 포크 안내
+> 이 저장소는 [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)의 **ranisec 포크**입니다. 원본 라이선스(MIT)를 그대로 유지합니다.
+> 이 포크에서 추가한 것: `USAGE_SKILL.md` — 공용 박스용 한국어 사용법 스킬 문서.
+> 원본 코드는 수정하지 않았으며, 자세한 내용은 [FORK_NOTES.md](FORK_NOTES.md)를 참고하세요. 업스트림에 PR은 보내지 않았습니다.
+
 <p align="center">
   <img src="docs/assets/banner.webp" alt="Booklin, the book-to-skill wizard, holding an open book whose pages scatter into sparkles that settle into an ordered grid" width="100%">
 </p>
