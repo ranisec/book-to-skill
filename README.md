@@ -1,8 +1,21 @@
 <!-- ranisec fork notice -->
-> ## 포크 안내
-> 이 저장소는 [virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)의 **ranisec 포크**입니다. 원본 라이선스(MIT)를 그대로 유지합니다.
-> 이 포크에서 추가한 것: `USAGE_SKILL.md` — 공용 박스용 한국어 사용법 스킬 문서.
-> 원본 코드는 수정하지 않았으며, 자세한 내용은 [FORK_NOTES.md](FORK_NOTES.md)를 참고하세요. 업스트림에 PR은 보내지 않았습니다.
+> [!NOTE]
+> ### 🍴 포크 안내 (ranisec fork)
+> 이 저장소는 **[virgiliojr94/book-to-skill](https://github.com/virgiliojr94/book-to-skill)** 의 포크입니다. 원본 코드는 그대로이며, 한국어 문서 1개만 추가했습니다.
+>
+> | 추가 파일 | 용도 |
+> |---|---|
+> | [`USAGE_SKILL.md`](USAGE_SKILL.md) | 한국어 사용 가이드 겸 에이전트 스킬 문서: 설치, 추출 CLI, 전체 변환 절차, 생성 스킬 검사, 개인정보·외부 접속 주의사항 |
+>
+> **왜?** 한국어 사용자가 구조(로컬 추출기 + 에이전트 LLM 생성)와 주의점을 빠르게 이해하도록 돕기 위해서입니다.
+>
+> ```bash
+> python3 -m venv .venv && .venv/bin/pip install -e ".[pdf,epub,docx,rtf]"
+> .venv/bin/book-to-skill --check
+> BOOK_SKILL_WORKDIR=./work .venv/bin/book-to-skill book.pdf --mode text --install-missing no
+> ```
+>
+> 라이선스: 원본과 같은 **MIT** (변경 없음) · 자세한 내용: [FORK_NOTES.md](FORK_NOTES.md) · 업스트림에 PR을 보내지 않은 개인 포크입니다.
 
 <p align="center">
   <img src="docs/assets/banner.webp" alt="Booklin, the book-to-skill wizard, holding an open book whose pages scatter into sparkles that settle into an ordered grid" width="100%">
